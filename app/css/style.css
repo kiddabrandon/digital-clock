@@ -1,0 +1,25 @@
+body{
+    background: url(web_GPMH-Chrono-2-168570-3001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    margin: 0;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.1);
+}
